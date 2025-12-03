@@ -1,2 +1,2 @@
-# dsa_c
-Data structures in C programming.
+# DSA
+### Data structures in C programming.
