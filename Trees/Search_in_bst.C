@@ -97,7 +97,7 @@ int main()
         printf("This is a bst");
     }
     struct node *element = search(p, 6);
-    if (n != NULL)
+    if (element != NULL)
     {
         printf("FOUND: %d", element->data);
     }
