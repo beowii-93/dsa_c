@@ -37,6 +37,7 @@ int isBST(struct node* root){
         if(prev!=NULL && root->data <= prev->data){
             return 0;
         }
+        //updating the previous node to the current node because we are moving to the right subtree now
         prev=root;
         return isBST(root->right);
     }
